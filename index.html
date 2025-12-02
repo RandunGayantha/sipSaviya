@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka A/L Study Relief</title>
+    
+    <link rel="icon" href="https://img.icons8.com/fluency/96/books.png" type="image/png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            darkMode: 'class', 
+            theme: {
+                extend: {
+                    colors: {
+                        'sl-blue': '#1e40af',
+                        'sl-blue-dark': '#1e3a8a',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 antialiased transition-colors duration-300">
+
+    <div class="relative h-[450px] md:h-[550px] w-full overflow-hidden bg-slate-900">
+        
+        <img 
+            src="header.png" 
+            alt="Sri Lankan students studying" 
+            class="absolute inset-0 w-full h-full object-cover"
+        >
+        
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/50 to-slate-900/90"></div>
+        
+        <button id="theme-toggle" type="button" class="absolute top-6 right-6 z-30 text-white hover:text-yellow-400 bg-black/30 hover:bg-black/50 focus:outline-none focus:ring-2 focus:ring-white/50 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center backdrop-blur-md transition border border-white/20">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.707.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path></svg>
+        </button>
+
+        <div class="relative max-w-6xl mx-auto px-6 h-full flex flex-col justify-center items-center text-center text-white z-10 pt-10">
+            <span class="mb-4 inline-block bg-blue-600/90 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wide backdrop-blur-sm border border-blue-400/30 shadow-lg">
+                For Sri Lankan Students 🇱🇰
+            </span>
+            <h1 class="text-3xl md:text-6xl font-extrabold tracking-tight mb-4 text-white drop-shadow-xl">
+                A/L Study Relief Portal
+            </h1>
+            <p class="text-lg md:text-xl font-medium text-slate-200 max-w-2xl drop-shadow-md mb-8">
+                We are in this together. Access free notes, past papers, and resources donated by the community.
+            </p>
+
+            <a href="https://github.com/RandunGayantha/sipSaviya" target="_blank" class="inline-flex items-center gap-3 bg-white text-slate-900 hover:bg-slate-200 font-bold py-3.5 px-8 rounded-full transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                Contribute on GitHub
+            </a>
+        </div>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 -mt-16 relative z-20">
+        
+        <div class="bg-white dark:bg-slate-800 p-4 md:p-6 rounded-2xl shadow-2xl mb-12 flex flex-col md:flex-row gap-4 border border-slate-100 dark:border-slate-700 transition-colors duration-300">
+            <div class="relative flex-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute left-4 top-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search subjects (e.g. Combined Maths, Sinhala)..." 
+                    class="w-full pl-12 pr-4 py-3 rounded-xl border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 focus:bg-white dark:focus:bg-slate-600 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition font-medium text-slate-700 dark:text-slate-200 placeholder-slate-400"
+                >
+            </div>
+            <select id="categorySelect" class="p-3 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 focus:ring-2 focus:ring-blue-600 focus:border-transparent font-medium text-slate-700 dark:text-slate-200 min-w-[200px] cursor-pointer transition">
+                <option value="All">All Streams</option>
+            </select>
+        </div>
+
+        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="col-span-full text-center py-20 text-slate-500 dark:text-slate-400 text-lg font-medium animate-pulse">Loading study materials...</div>
+        </div>
+        
+        <div id="noResults" class="hidden col-span-full flex flex-col items-center justify-center py-20 text-center">
+            <div class="bg-slate-100 dark:bg-slate-800 p-4 rounded-full mb-4 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-700 dark:text-slate-200 mb-2">No results found</h3>
+            <p class="text-slate-500 dark:text-slate-400">Try adjusting your search terms or category.</p>
+        </div>
+    </main>
+
+    <footer class="text-center py-8 mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 transition-colors duration-300">
+        <p class="font-medium flex items-center justify-center gap-2">
+            Stay Strong Sri Lanka <span class="text-2xl">🇱🇰</span>
+        </p>
+        <p class="text-sm text-slate-400 dark:text-slate-500 mt-2">Community Driven Effort</p>
+    </footer>
+
+    <script>
+        // --- DARK MODE LOGIC ---
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const darkIcon = document.getElementById('theme-toggle-dark-icon');
+        const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            lightIcon.classList.remove('hidden');
+        } else {
+            document.documentElement.classList.remove('dark');
+            darkIcon.classList.remove('hidden');
+        }
+
+        themeToggleBtn.addEventListener('click', function() {
+            darkIcon.classList.toggle('hidden');
+            lightIcon.classList.toggle('hidden');
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        });
+
+        // --- DATA & RENDERING LOGIC ---
+        let allResources = [];
+
+        fetch('./data.json')
+            .then(response => response.json())
+            .then(data => {
+                allResources = data;
+                populateCategories(data);
+                renderNotes(data);
+            })
+            .catch(error => {
+                document.getElementById('contentGrid').innerHTML = `
+                    <div class="col-span-full text-center py-10 bg-red-50 dark:bg-red-900/20 rounded-xl border border-red-100 dark:border-red-800 text-red-600 dark:text-red-400">
+                        <p class="font-bold">Failed to load data.</p>
+                        <p class="text-sm">Please refresh the page.</p>
+                    </div>`;
+            });
+
+        // --- FIXED STREAM COLORS ---
+        function getCategoryColor(category) {
+            const cat = category.toLowerCase();
+            // Science -> Blue
+            if (cat === "science") return "bg-blue-50 text-blue-700 border-blue-100 | dark:bg-blue-900/40 dark:text-blue-200 dark:border-blue-700";
+            // Commerce -> Orange
+            if (cat === "commerce") return "bg-orange-50 text-orange-700 border-orange-100 | dark:bg-orange-900/40 dark:text-orange-200 dark:border-orange-700";
+            // Technology -> Teal
+            if (cat === "technology") return "bg-teal-50 text-teal-700 border-teal-100 | dark:bg-teal-900/40 dark:text-teal-200 dark:border-teal-700";
+            // Arts -> Purple (Default for Arts, Languages, etc)
+            return "bg-purple-50 text-purple-700 border-purple-100 | dark:bg-purple-900/40 dark:text-purple-200 dark:border-purple-700";
+        }
+
+        function renderNotes(notes) {
+            const grid = document.getElementById('contentGrid');
+            const noResults = document.getElementById('noResults');
+            grid.innerHTML = '';
+            
+            if (notes.length === 0) {
+                noResults.classList.remove('hidden');
+                return;
+            } else {
+                noResults.classList.add('hidden');
+            }
+
+            notes.forEach(note => {
+                const colors = getCategoryColor(note.category).split('|');
+                const lightColors = colors[0];
+                const darkColors = colors[1];
+
+                const card = `
+                    <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-sm hover:shadow-xl border border-slate-200 dark:border-slate-700 transition-all duration-300 flex flex-col overflow-hidden group">
+                        <div class="p-6 flex-1">
+                            <div class="flex justify-between items-start mb-4">
+                                <span class="inline-block px-3 py-1 ${lightColors} ${darkColors} border text-[11px] font-bold uppercase rounded-full tracking-wider transition-colors">
+                                    ${note.category}
+                                </span>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800 dark:text-slate-100 mb-2 leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition">${note.subject}</h3>
+                            <p class="text-slate-500 dark:text-slate-400 text-sm font-medium line-clamp-2">${note.title}</p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2">
+                            <a href="${note.link}" target="_blank" class="flex items-center justify-center w-full text-center bg-blue-700 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition-all shadow-sm hover:shadow-md gap-2">
+                                <span>Open Drive Folder</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                `;
+                grid.innerHTML += card;
+            });
+        }
+
+        const searchInput = document.getElementById('searchInput');
+        const categorySelect = document.getElementById('categorySelect');
+
+        function filterData() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedCat = categorySelect.value;
+            const filtered = allResources.filter(item => {
+                return (item.subject.toLowerCase().includes(searchTerm) || item.title.toLowerCase().includes(searchTerm)) &&
+                       (selectedCat === "All" || item.category === selectedCat);
+            });
+            renderNotes(filtered);
+        }
+
+        function populateCategories(data) {
+            const categories = [...new Set(data.map(item => item.category))];
+            categories.sort();
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                categorySelect.appendChild(option);
+            });
+        }
+
+        searchInput.addEventListener('input', filterData);
+        categorySelect.addEventListener('change', filterData);
+    </script>
+</body>
+</html>
